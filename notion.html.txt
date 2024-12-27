@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Feed Preview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f9f9f9;
+    }
+
+    .instagram-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 600px;
+      margin: 20px;
+    }
+
+    .instagram-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="instagram-grid">
+    <!-- Replace these image links with your hosted image URLs -->
+    <img src="https://via.placeholder.com/150" alt="Image 1">
+    <img src="https://via.placeholder.com/150" alt="Image 2">
+    <img src="https://via.placeholder.com/150" alt="Image 3">
+    <img src="https://via.placeholder.com/150" alt="Image 4">
+    <img src="https://via.placeholder.com/150" alt="Image 5">
+    <img src="https://via.placeholder.com/150" alt="Image 6">
+  </div>
+</body>
+</html>
